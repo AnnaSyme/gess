@@ -37,6 +37,8 @@ parser.add_argument('--cutoff', '-ci', type=int, default=3, help='discard kmers 
 parser.add_argument('--quiet', '-q', action="store_true") #if user specifies this arg, it has value True
 parser.add_argument('--tmpdir', '-t', default='/tmp')
 parser.add_argument('--citation', action="store_true")
+parser.add_argument('--check')
+
 
 args = parser.parse_args()
 
@@ -66,6 +68,17 @@ if args.cutoff<MIN_CUTOFF or args.cutoff>MAX_CUTOFF: #TODO check suitable cutoff
 # use process ID to name temp files
 pid = str(os.getpid())
 logging.info("the pid is: " + pid)
+
+
+#TODO get the version of kmc
+#kmc_cmd = ["kmc"]
+#kmc_check = subprocess.check_output(kmc_cmd)
+#kmc_pattern = re.search(r'ver.\s(d+)', kmc_check)
+
+
+
+
+
 
 # talk to the user
 logging.info("You provided this fastq file: {}". format(args.fastq_file))
