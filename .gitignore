@@ -1,0 +1,6 @@
+#tell Git to ignore these files
+
+
+/R1.fq.gz
+/test_fastqs
+/tests
