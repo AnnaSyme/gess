@@ -27,7 +27,7 @@ import argparse
 from argparse import RawTextHelpFormatter
 
 # make parser, add arguments, read in args from user
-parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter, description='estimates genome size', usage='\n %(prog)s FASTQ1', prog='gess')
+parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter, description='estimates genome size', usage='\n %(prog)s args.fastq_file', prog='gess')
 parser.add_argument('--version', '-v', action='version', version='%(prog)s 0.1')
 parser.add_argument("fastq_file")
 parser.add_argument('--kmer', '-k', type=int, default=25, help='kmer size for KMC') 
@@ -48,7 +48,7 @@ else:
 
 #citation
 if args.citation:
-	print("Citation: Gess, a tool for genome size estimation. Amazing Journal, 2017")
+	print("Citation: Gess, a tool for genome size estimation. GitHub")
 
 
 #check input is correct 
