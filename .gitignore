@@ -4,3 +4,6 @@
 /R1.fq.gz
 /test_fastqs
 /tests
+/test_subsamples
+/tmp
+/oldstuff
