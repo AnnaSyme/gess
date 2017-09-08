@@ -1,6 +1,8 @@
 #!/bin/sh
 
 # Install Python dependencies
+echo this is the install dep script
+
 
 echo 'Python install'
 (
