@@ -1,5 +1,6 @@
 
 
-echo this is the test.sh file
+echo "this is the test.sh file"
+export PATH=$PWD/.travis:$PATH
 
-./$1 $2
+./gess.py R1.fq.gz
