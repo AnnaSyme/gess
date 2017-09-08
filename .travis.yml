@@ -3,7 +3,7 @@ python:
   - "3.6"
 
 
-before install:
+before_install:
   - ./.travis/install-dependencies.sh
 
 script:
