@@ -1,3 +1,5 @@
+#!/bin/sh
+
 
 
 echo "this is the test.sh file"
