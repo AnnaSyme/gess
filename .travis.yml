@@ -7,4 +7,4 @@ before install:
   - ./.travis/install-dependencies.sh
 
 script:
-  - ./.travis/test.sh gess.py 
+  - ./.travis/test.sh gess.py R1.fq.gz

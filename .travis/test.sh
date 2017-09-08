@@ -2,4 +2,4 @@
 
 echo this is the test.sh file
 
-./$1
+./$1 $2
