@@ -6,10 +6,10 @@ export PATH=.:$PATH  #adds current dir to path
 #echo $PWD
 #find .
 
-echo "PWD=$PWD"
-kmc -h
-./kmc -h
-./gess.py -h
+#echo "PWD=$PWD"
+#kmc -h
+#./kmc -h
+#./gess.py -h
 
 
-./gess.py R1_01.fq.gz
+./gess.py R1_01.fq

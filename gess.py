@@ -89,7 +89,7 @@ def main():
     # talk to the user
     logging.info("You provided this fastq file: {}". format(args.fastq_file))
     logging.info("Now running KMC with these commands:")
-    cmd = ["kmc", "-k"+str(args.kmer), "-n"+str(args.nbins), "-ci"+str(args.cutoff), "--threads"+str(args.threads), args.fastq_file, pid, args.tmpdir]
+    cmd = ["kmc", "-k"+str(args.kmer), "-n"+str(args.nbins), "-ci"+str(args.cutoff), "-t"+str(args.threads), args.fastq_file, pid, args.tmpdir]
     logging.debug(cmd)
     # -ci3 option discards kmers with freq <3
     # -n200 sets number of bins to 200 because you can only have 256 files open at once
