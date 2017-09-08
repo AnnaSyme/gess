@@ -4,7 +4,7 @@ python:
 
 
 before install:
-  - ./.travis/install-dependencis.sh
+  - ./.travis/install-dependencies.sh
 
 script:
   - ./.travis/test.sh 
