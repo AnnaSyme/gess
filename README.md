@@ -1,5 +1,7 @@
 # gess
 
+[![Build Status](https://travis-ci.org/AnnaSyme/gess.svg?branch=master)](https://travis-ci.org/AnnaSyme/gess)
+
 Tool to estimate genome-size from fastq reads. Uses the KMC tool for k-mer counting. 
 
 
