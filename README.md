@@ -24,6 +24,6 @@ Kokot M, Dlugosz M, Deorowicz S. KMC 3: counting and manipulating k -mer statist
 KMC website:
 http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=about
 
-
-
+Github:
+https://github.com/refresh-bio/KMC
 

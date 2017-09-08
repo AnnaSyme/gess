@@ -68,6 +68,9 @@ def main():
     if args.cutoff<MIN_CUTOFF or args.cutoff>MAX_CUTOFF: #TODO check suitable cutoffs
         logging.error("cutoff should be between {} and {}".format(MIN_CUTOFF, MAXCUTOFF))
         sys.exit(1)
+    if args.threads < 1:
+        logging.error("threads should be greater than 0")
+        sys.exit(1)
 
     # use process ID to name temp files
     pid = str(os.getpid())
@@ -75,25 +78,12 @@ def main():
 
 
     #TODO: check that kmc works
-
-
     #get the version of kmc
-
-
-
     #kmc_cmd = ["kmc"]
     #kmc_check = subprocess.check_output(kmc_cmd)
     #kmc_pattern = re.search(r'ver.\s(d+)', kmc_check)
-
-
-
     # check kmc runs at all
     # try / except
-
-
-
-
-
 
 
     # talk to the user
