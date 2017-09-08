@@ -12,4 +12,4 @@ kmc -h
 ./gess.py -h
 
 
-#./gess.py R1.fq.gz
+./gess.py R1_01.fq.gz
