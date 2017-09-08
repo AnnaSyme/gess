@@ -2,8 +2,7 @@ language: python
 python:
   - "3.6"
 
-
-before_install:
+install:
   - ./.travis/install-dependencies.sh
 
 script:
