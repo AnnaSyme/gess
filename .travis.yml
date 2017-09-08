@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+
+
+before install:
+  - ./.travis/install-dependencis.sh
+
+script:
+  - ./.travis/test.sh gess.py 
